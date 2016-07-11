@@ -31,7 +31,7 @@ public class MainPanel extends JPanel {
 	return _cells;
     }
 
-    private int convertToInt(int x) {
+    static int convertToInt(int x) {
 
 	return x;
     }
@@ -214,8 +214,6 @@ public class MainPanel extends JPanel {
 	_running = true;
 	while (_running) {
 	    System.out.println("Running...");
-
-
 	    backup();
 	    calculateNextIteration();
 	}
