@@ -212,11 +212,11 @@ public class MainPanel extends JPanel {
 
     public void runContinuous() {
 	_running = true;
-	while (_running) {
-	    System.out.println("Running...");
-	    backup();
-	    calculateNextIteration();
-	}
+		while (_running) {
+		    System.out.println("Running...");
+		    backup();
+		    calculateNextIteration();
+		}
     }
 
     /**
